@@ -96,7 +96,8 @@ export default {
         },
         extend: {
             fontFamily: {
-                sans: ["Figtree", ...defaultTheme.fontFamily.sans],
+                inter: ["Inter", "sans-serif"],
+                archivo: ["Archivo", "sans-serif"],
             },
         },
     },
