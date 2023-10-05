@@ -68,6 +68,9 @@ export default {
                 11: "#C62A2F",
                 12: "#641723",
             },
+            state: {
+                "focus-ring": "#1C2024",
+            },
         },
         boxShadow: {
             sm: "0px 2px 10px 0px rgba(0, 0, 0, 0.07)",
@@ -93,6 +96,17 @@ export default {
             7: "45px",
             8: "65px",
             9: "80px",
+        },
+        fontSize: {
+            1: ["8px", "12.8px"],
+            2: ["13px", "20.8px"],
+            3: ["15px", "24px"],
+            4: ["17px", "27.2px"],
+            5: ["19px", "30.4px"],
+            6: ["21px", "33.6px"],
+            7: ["27px", "43.2px"],
+            8: ["35px", "56px"],
+            9: ["59px", "59px"],
         },
         extend: {
             fontFamily: {
