@@ -71,6 +71,10 @@ export default {
             state: {
                 "focus-ring": "#1C2024",
             },
+            disabled: {
+                content: "#B9BBC6",
+                background: "#E4E4E9",
+            },
         },
         boxShadow: {
             sm: "0px 2px 10px 0px rgba(0, 0, 0, 0.07)",
@@ -87,6 +91,7 @@ export default {
             full: "999px",
         },
         spacing: {
+            0: "0px",
             1: "5px",
             2: "10px",
             3: "15px",
